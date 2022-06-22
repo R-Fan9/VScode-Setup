@@ -1,0 +1,34 @@
+{
+  "workbench.colorTheme": "Default Dark+",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["s", "s"],
+      "after": ["*"]
+    },
+    {
+      "before": ["space", "w", "d"],
+      "commands": ["console.log.wrap.nameValue"]
+    },
+    {
+      "before": ["space", "w", "j"],
+      "commands": ["console.log.wrap.json"]
+    },
+    {
+      "before": ["s", "h"],
+      "commands": ["workbench.action.previousEditor"]
+    },
+    {
+      "before": ["s", "l"],
+      "commands": ["workbench.action.nextEditor"]
+    },
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.referenceSearch.trigger"]
+    },
+    {
+      "before": ["g", "w"],
+      "commands": ["workbench.action.navigateBack"]
+    }
+  ],
+  "git.confirmSync": false
+}
